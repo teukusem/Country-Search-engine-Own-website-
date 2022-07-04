@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mrgSearch {
+  margin: 150px;
+}
+
+.btnCountry {
+  align-items: center;
+  background-color: rgb(190, 85, 190) !important;
+  border: none !important;
+}
+
+.cardText {
+  color: rgb(190, 85, 190) !important;
+  font-size: 60px;
+}
+
+.flagCountry {
+  width: 60px;
+  height: 30px;
+}
+
+.codeCountry {
+  border-radius: 40px !important;
+}
+
+.heightCard {
+  height: 144px;
+}
+
+.logoEarth {
+  width: 200px;
+  height: 80px;
+  opacity: 0.5;
+}
+
+.drowDwn {
+  width: 775px;
+}
+
+@media only screen and (max-width: 600px) {
+  .drowDwn {
+    width: 335px;
+  }
+}
